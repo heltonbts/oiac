@@ -24,6 +24,19 @@
           <li class="main-menu__item"><a href="#contato">Contato</a></li>
         </ul>
         <div class="nav-right">
+          <div class="language-switcher" id="desktop-language-switcher" aria-label="Selecionar idioma">
+            <button class="lang-btn" type="button" data-lang="pt-BR"><span aria-hidden="true">🇧🇷</span><span>PT</span></button>
+            <button class="lang-btn" type="button" data-lang="fr"><span aria-hidden="true">🇫🇷</span><span>FR</span></button>
+            <button class="lang-btn" type="button" data-lang="en"><span aria-hidden="true">🇺🇸</span><span>EN</span></button>
+          </div>
+          <div class="international-badge" id="desktop-international-badge">
+            <span class="international-badge__flags" aria-hidden="true">
+              <span title="Brasil"><img src="https://flagcdn.com/br.svg" alt="Brasil" /></span><span title="França"><img src="https://flagcdn.com/fr.svg" alt="França" /></span><span title="Holanda"><img src="https://flagcdn.com/nl.svg" alt="Holanda" /></span><span title="Dinamarca"><img src="https://flagcdn.com/dk.svg" alt="Dinamarca" /></span><span title="Bélgica"><img src="https://flagcdn.com/be.svg" alt="Bélgica" /></span><span title="Itália"><img src="https://flagcdn.com/it.svg" alt="Itália" /></span>
+            </span>
+            <span class="international-badge__text">
+              <strong>Atendimento internacional</strong>
+            </span>
+          </div>
           <a href="https://wa.me/5500000000000" class="access-item" target="_blank" rel="noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
             WhatsApp
@@ -38,7 +51,11 @@
 
     <!-- Mobile -->
     <div class="mobile-menu">
-      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu">&#9776;</button>
+      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
       <a href="./" class="logo-link" aria-label="OIAC Engenharia">
         <img src="./image.png" alt="OIAC Engenharia" class="site-logo mobile-logo" />
       </a>
@@ -50,6 +67,19 @@
 
   <!-- Mobile Drawer -->
   <nav class="mobile-drawer" id="mobile-drawer">
+    <div class="language-switcher language-switcher--drawer" id="drawer-language-switcher" aria-label="Selecionar idioma">
+      <button class="lang-btn" type="button" data-lang="pt-BR"><span aria-hidden="true">🇧🇷</span><span>PT</span></button>
+      <button class="lang-btn" type="button" data-lang="fr"><span aria-hidden="true">🇫🇷</span><span>FR</span></button>
+      <button class="lang-btn" type="button" data-lang="en"><span aria-hidden="true">🇺🇸</span><span>EN</span></button>
+    </div>
+    <div class="international-badge international-badge--drawer" id="drawer-international-badge">
+      <span class="international-badge__flags" aria-hidden="true">
+        <span title="Brasil"><img src="https://flagcdn.com/br.svg" alt="Brasil" /></span><span title="França"><img src="https://flagcdn.com/fr.svg" alt="França" /></span><span title="Holanda"><img src="https://flagcdn.com/nl.svg" alt="Holanda" /></span><span title="Dinamarca"><img src="https://flagcdn.com/dk.svg" alt="Dinamarca" /></span><span title="Bélgica"><img src="https://flagcdn.com/be.svg" alt="Bélgica" /></span><span title="Itália"><img src="https://flagcdn.com/it.svg" alt="Itália" /></span>
+      </span>
+      <span class="international-badge__text">
+        <strong>Atendimento internacional</strong>
+      </span>
+    </div>
     <a href="#portfolio">Portfólio</a>
     <a href="#servicos">Serviços</a>
     <a href="#vantagens">A OIAC</a>
@@ -66,12 +96,11 @@
       <div class="swiper-wrapper">
 
         <!-- Slide 1 -->
-        <div class="swiper-slide slide-item">
+        <div class="swiper-slide slide-item" data-slide-id="hero-1">
           <div class="image-item">
-            <!-- Substitua pelo caminho real da imagem -->
             <img
-              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80"
-              alt="Equipe de engenharia analisando obra"
+              src="/hero/hero-1.jpg"
+              alt="Vista aérea da Vila Severina com piscina e deck central"
               loading="eager"
             />
             <div class="overlay"></div>
@@ -79,7 +108,7 @@
           <div class="text-container">
             <div class="container">
               <div class="slide-text">
-                <h1 class="title">Administração<br>de Obras</h1>
+                <h1 class="title">Administração<br>e Execução</h1>
                 <p class="description">Gestão técnica, cronograma, custos e qualidade</p>
                 <p class="location">
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:4px"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
@@ -92,11 +121,11 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="swiper-slide slide-item">
+        <div class="swiper-slide slide-item" data-slide-id="hero-2">
           <div class="image-item">
             <img
-              src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80"
-              alt="Projeto arquitetônico em desenvolvimento"
+              src="/hero/hero-2.jpg"
+              alt="Bangalô duplo com piscina, deck e cobertura em bambu em Pontal de Maceió"
               loading="lazy"
             />
             <div class="overlay"></div>
@@ -117,11 +146,11 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="swiper-slide slide-item">
+        <div class="swiper-slide slide-item" data-slide-id="hero-3">
           <div class="image-item">
             <img
-              src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80"
-              alt="Documentação técnica para regularização de imóvel"
+              src="/hero/hero-3.jpg"
+              alt="Fachada do bangalô com coqueiros e céu azul em Pontal de Maceió"
               loading="lazy"
             />
             <div class="overlay"></div>
@@ -151,82 +180,71 @@
   ====================================================== -->
   <section class="our-buildings" id="portfolio">
     <div class="container">
-      <div class="title-row">
+      <div class="title-row reveal">
         <span class="small-text">Portfólio</span>
         <span class="big-text">Obras Executadas</span>
       </div>
 
       <!-- Desktop grid -->
-      <div class="buildings-grid">
+      <div class="buildings-grid reveal reveal--delay-1">
 
         <!-- Card 1 -->
-        <article class="building-item" data-portfolio-id="residencia-alto-padrao" tabindex="0" role="button" aria-label="Abrir detalhes da obra Residência Alto Padrão">
+        <article class="building-item" data-portfolio-id="vila-severina" tabindex="0" role="button" aria-label="Abrir detalhes da obra Vila Severina">
           <div class="photo-position">
             <img
-              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=75"
-              alt="Residência de alto padrão executada"
+              src="/vila-serverina/IMG_4639.JPG"
+              alt="Vista aerea da Vila Severina com piscina central"
               loading="lazy"
             />
           </div>
           <div class="card-overlay"></div>
           <span class="status-badge lancamento">Residencial</span>
-          <div class="online">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Chat
-          </div>
           <div class="text-content">
-            <h2 class="title">Residência Alto Padrão</h2>
+            <h2 class="title">Vila Severina</h2>
             <div class="desc-item">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <span class="text">Execução completa com gestão de obra, compatibilização e acabamento final.</span>
+              <span class="text">Implantacao com patio interno e interiores acolhedores em madeira.</span>
             </div>
           </div>
         </article>
 
-        <!-- Card 2 -->
-        <article class="building-item" data-portfolio-id="reforma-comercial" tabindex="0" role="button" aria-label="Abrir detalhes da obra Reforma Comercial">
+        <!-- Card 5 -->
+        <article class="building-item" data-portfolio-id="casa-caio" tabindex="0" role="button" aria-label="Abrir detalhes da obra Casa Caio">
           <div class="photo-position">
             <img
-              src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=75"
-              alt="Reforma comercial executada"
+              src="/Caio/cover.jpg"
+              alt="Residência beira-mar com piscina, deck e cobertura em bambu"
               loading="lazy"
             />
           </div>
           <div class="card-overlay"></div>
-          <span class="status-badge obras">Comercial</span>
-          <div class="online">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Chat
-          </div>
+          <span class="status-badge lancamento">Residencial</span>
           <div class="text-content">
-            <h2 class="title">Reforma Comercial</h2>
+            <h2 class="title">Bangalô Duplo</h2>
             <div class="desc-item">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <span class="text">Adequação de layout, instalações e acompanhamento técnico da execução.</span>
+              <span class="text">Bangalô duplo em área litorânea com deck, piscina, lavabo externo, lavanderia e guarda kite.</span>
             </div>
           </div>
         </article>
 
         <!-- Card 3 -->
-        <article class="building-item" data-portfolio-id="ampliacao-regularizacao" tabindex="0" role="button" aria-label="Abrir detalhes da obra Ampliação e Regularização">
+        <article class="building-item" data-portfolio-id="casa-em-canoa" tabindex="0" role="button" aria-label="Abrir detalhes da obra Casa em Canoa Quebrada">
           <div class="photo-position">
             <img
-              src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=75"
-              alt="Galpão regularizado e ampliado"
+              src="/casa-em-canoa/21EAC4A9-8EEC-4891-9FD1-E47F202D5DD7.jpg"
+              alt="Fachada da Casa em Canoa Quebrada em execução"
               loading="lazy"
             />
           </div>
           <div class="card-overlay"></div>
-          <span class="status-badge entregue">Industrial</span>
-          <div class="online">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-            Chat
-          </div>
+          <span class="status-badge obras">Residencial</span>
+          <span class="progress-badge">85% Concluído</span>
           <div class="text-content">
-            <h2 class="title">Ampliação e Regularização</h2>
+            <h2 class="title">Casa em Canoa</h2>
             <div class="desc-item">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              <span class="text">Execução de ampliação com suporte documental, laudos e regularização técnica.</span>
+              <span class="text">Obra em andamento em Canoa Quebrada — finalização dos ambientes internos e acabamentos externos.</span>
             </div>
           </div>
         </article>
@@ -236,23 +254,24 @@
       <!-- Mobile swiper -->
       <div class="buildings-swiper swiper buildings-mobile-swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="residencia-alto-padrao" tabindex="0" role="button" aria-label="Abrir detalhes da obra Residência Alto Padrão" style="min-height:320px;">
-            <div class="photo-position"><img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=70" alt="Residência de alto padrão executada" loading="lazy"/></div>
+          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="vila-severina" tabindex="0" role="button" aria-label="Abrir detalhes da obra Vila Severina" style="min-height:320px;">
+            <div class="photo-position"><img src="/vila-serverina/IMG_4639.JPG" alt="Vista aerea da Vila Severina com piscina central" loading="lazy"/></div>
             <div class="card-overlay"></div>
             <span class="status-badge lancamento">Residencial</span>
-            <div class="text-content"><h2 class="title">Residência Alto Padrão</h2><div class="desc-item"><span class="text">Execução e gestão completa da obra.</span></div></div>
+            <div class="text-content"><h2 class="title">Vila Severina</h2><div class="desc-item"><span class="text">Projeto com lazer central e ambientes internos autorais.</span></div></div>
           </article></div>
-          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="reforma-comercial" tabindex="0" role="button" aria-label="Abrir detalhes da obra Reforma Comercial" style="min-height:320px;">
-            <div class="photo-position"><img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=70" alt="Reforma comercial executada" loading="lazy"/></div>
+          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="casa-caio" tabindex="0" role="button" aria-label="Abrir detalhes da obra Casa Caio" style="min-height:320px;">
+            <div class="photo-position"><img src="/Caio/cover.jpg" alt="Residência beira-mar com piscina, deck e cobertura em bambu" loading="lazy"/></div>
             <div class="card-overlay"></div>
-            <span class="status-badge obras">Comercial</span>
-            <div class="text-content"><h2 class="title">Reforma Comercial</h2><div class="desc-item"><span class="text">Modernização e adequação técnica.</span></div></div>
+            <span class="status-badge lancamento">Residencial</span>
+            <div class="text-content"><h2 class="title">Bangalô Duplo</h2><div class="desc-item"><span class="text">Bangalô duplo com deck e materiais naturais em Pontal de Maceió.</span></div></div>
           </article></div>
-          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="ampliacao-regularizacao" tabindex="0" role="button" aria-label="Abrir detalhes da obra Ampliação e Regularização" style="min-height:320px;">
-            <div class="photo-position"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=70" alt="Galpão regularizado e ampliado" loading="lazy"/></div>
+          <div class="swiper-slide" style="width:85%;"><article class="building-item" data-portfolio-id="casa-em-canoa" tabindex="0" role="button" aria-label="Abrir detalhes da obra Casa em Canoa Quebrada" style="min-height:320px;">
+            <div class="photo-position"><img src="/casa-em-canoa/21EAC4A9-8EEC-4891-9FD1-E47F202D5DD7.jpg" alt="Fachada da Casa em Canoa Quebrada em execução" loading="lazy"/></div>
             <div class="card-overlay"></div>
-            <span class="status-badge entregue">Industrial</span>
-            <div class="text-content"><h2 class="title">Ampliação e Regularização</h2><div class="desc-item"><span class="text">Obra e documentação técnica integradas.</span></div></div>
+            <span class="status-badge obras">Residencial</span>
+            <span class="progress-badge">85% Concluído</span>
+            <div class="text-content"><h2 class="title">Casa em Canoa</h2><div class="desc-item"><span class="text">Obra em andamento — reta final dos acabamentos em Canoa Quebrada.</span></div></div>
           </article></div>
         </div>
         <div class="swiper-pagination" style="position:relative;margin-top:16px;"></div>
@@ -290,7 +309,7 @@
               <h4>Ficha técnica</h4>
               <dl class="portfolio-modal__specs" id="portfolio-modal-specs"></dl>
             </div>
-            <div class="portfolio-modal__section">
+            <div class="portfolio-modal__section" id="portfolio-modal-video-section">
               <h4>Vídeo da obra</h4>
               <div class="portfolio-modal__video" id="portfolio-modal-video"></div>
             </div>
@@ -306,34 +325,30 @@
 
   <section class="services-section" id="servicos">
     <div class="container">
-      <div class="title-row">
+      <div class="title-row reveal">
         <span class="small-text">Soluções</span>
         <span class="big-text">Nossos Serviços</span>
       </div>
       <div class="services-grid">
-        <article class="service-card">
-          <h3>Administração de Obras</h3>
-          <p>Gestão de cronograma, equipes, medições, suprimentos e controle técnico da execução.</p>
+        <article class="service-card reveal">
+          <h3>Administração e Execução de Obras</h3>
+          <p>Gestão completa da obra com execução, planejamento, suprimentos e atuação também em preservação e manutenção de patrimônio histórico.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal reveal--delay-1">
+          <h3>Consultoria, Assessoria e Viabilidade</h3>
+          <p>Análise técnica e estratégica para orientar decisões, validar escopo, custos, implantação e viabilidade de projetos.</p>
+        </article>
+        <article class="service-card reveal reveal--delay-2">
           <h3>Regularização</h3>
           <p>Suporte para habite-se, averbação, adequações, documentação e processos junto aos órgãos competentes.</p>
         </article>
-        <article class="service-card">
-          <h3>Projetos Arquitetônicos</h3>
-          <p>Concepção, estudo preliminar, anteprojeto, executivo e detalhamento para obras residenciais e comerciais.</p>
-        </article>
-        <article class="service-card">
-          <h3>Consultoria Técnica</h3>
-          <p>Análise de viabilidade, orientação construtiva, apoio em decisões técnicas e revisão de escopo.</p>
-        </article>
-        <article class="service-card">
+        <article class="service-card reveal reveal--delay-3">
           <h3>Laudos e Vistorias</h3>
-          <p>Inspeções técnicas, pareceres, laudos e relatórios para avaliação de patologias e conformidade.</p>
+          <p>Inspeções técnicas, pareceres, laudos e relatórios para avaliação de patologias, conformidade e suporte decisório.</p>
         </article>
-        <article class="service-card">
-          <h3>Compatibilização de Projetos</h3>
-          <p>Integração entre arquitetura, estrutura e instalações para reduzir conflitos e retrabalho na obra.</p>
+        <article class="service-card reveal reveal--delay-4">
+          <h3>Projetos e Compatibilização</h3>
+          <p>Desenvolvimento e integração entre arquitetura, estrutura e instalações para reduzir conflitos e dar mais previsibilidade à execução.</p>
         </article>
       </div>
     </div>
@@ -350,11 +365,11 @@
       loading="lazy"
     />
     <div class="container">
-      <div class="title-row">
+      <div class="title-row reveal">
         <span class="small-text">Por Que Escolher</span>
         <span class="big-text">A OIAC Engenharia</span>
       </div>
-      <ul class="advantages-listing">
+      <ul class="advantages-listing reveal reveal--delay-1">
         <li class="advantage-item">
           <span class="top-text">Gestão técnica com visão prática</span>
           <span class="content-text">Atuação orientada por planejamento, controle e tomada de decisão baseada em critérios técnicos.</span>
@@ -379,6 +394,13 @@
           <span class="top-text">Atuação multidisciplinar</span>
           <span class="content-text">Projetos, obras, perícias, regularização e consultoria reunidos em uma única operação técnica.</span>
         </li>
+        <li class="advantage-item">
+          <span class="top-text" style="display:flex;align-items:center;gap:10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;opacity:0.85;"><path d="M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.475-1.243 14.9.358c6.43 1.605 10.342 8.115 8.738 14.548v-.002zm-6.35-4.613c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525 2.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54 2.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35 1.407s.974.225.955.236c.535.136.63.486.615.766l-1.477 5.92c-.075.166-.24.415-.614.32.015.02-.96-.24-.96-.24l-.66 1.51 1.71.426.93.242-.54 2.19 1.32.327.54-2.165c.36.1.705.19 1.05.273l-.54 2.143 1.32.33.54-2.19c2.24.427 3.93.257 4.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193 1.5-.76 1.68-1.93h.01zm-3.01 4.22c-.404 1.64-3.157.75-4.05.53l.72-2.9c.896.23 3.757.67 3.33 2.37zm.41-4.24c-.37 1.49-2.662.735-3.405.55l.654-2.64c.744.18 3.137.524 2.75 2.084v.006z"/></svg>
+            Pagamento em criptomoedas
+          </span>
+          <span class="content-text">Aceitamos Bitcoin, Ethereum e USDT — flexibilidade real para clientes nacionais e internacionais contratarem sem barreiras.</span>
+        </li>
       </ul>
     </div>
   </section>
@@ -390,7 +412,7 @@
     <div class="container">
       <div class="contact-grid">
         <!-- Info -->
-        <div class="contact-info">
+        <div class="contact-info reveal">
           <div class="title-row">
             <span class="small-text">Fale Conosco</span>
             <span class="big-text">Entre em Contato</span>
@@ -420,7 +442,7 @@
         </div>
 
         <!-- Form -->
-        <div>
+        <div class="reveal reveal--delay-2">
           <form class="contact-form" id="contact-form">
             <div class="form-row">
               <div class="form-group">
@@ -440,10 +462,11 @@
               <label for="cf-empreendimento">Serviço de interesse</label>
               <select id="cf-empreendimento" name="empreendimento">
                 <option value="">— Selecione —</option>
-                <option>Administração de Obras</option>
+                <option>Administração e Execução de Obras</option>
+                <option>Consultoria, Assessoria e Viabilidade</option>
                 <option>Regularização</option>
-                <option>Projetos Arquitetônicos</option>
-                <option>Consultoria Técnica</option>
+                <option>Laudos e Vistorias</option>
+                <option>Projetos e Compatibilização</option>
                 <option>Outro</option>
               </select>
             </div>
@@ -497,6 +520,18 @@
               Empresa de engenharia com foco em gestão, projetos e regularização.<br>
               Soluções técnicas para obras e imóveis com critério e clareza.
             </p>
+            <div style="margin-bottom:16px;">
+              <p style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:rgba(255,255,255,0.4);margin-bottom:8px;">Atendimento internacional</p>
+              <div style="display:inline-flex;align-items:center;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:0;"><img src="https://flagcdn.com/br.svg" alt="Brasil" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:-6px;"><img src="https://flagcdn.com/fr.svg" alt="França" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:-6px;"><img src="https://flagcdn.com/nl.svg" alt="Holanda" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:-6px;"><img src="https://flagcdn.com/dk.svg" alt="Dinamarca" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:-6px;"><img src="https://flagcdn.com/be.svg" alt="Bélgica" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,0.12);box-shadow:0 2px 6px rgba(0,0,0,0.3);margin-left:-6px;"><img src="https://flagcdn.com/it.svg" alt="Itália" style="width:100%;height:100%;object-fit:cover;display:block;" /></span>
+              </div>
+            </div>
+
             <div class="social-links">
               <!-- Instagram -->
               <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
@@ -522,9 +557,10 @@
             <h4>Serviços</h4>
             <ul>
               <li><a href="#servicos">Administração de Obras</a></li>
-              <li><a href="#servicos">Projetos Arquitetônicos</a></li>
+              <li><a href="#servicos">Consultoria e Viabilidade</a></li>
               <li><a href="#servicos">Regularização</a></li>
-              <li><a href="#servicos">Consultoria Técnica</a></li>
+              <li><a href="#servicos">Laudos e Vistorias</a></li>
+              <li><a href="#servicos">Projetos e Compatibilização</a></li>
             </ul>
           </div>
 
@@ -547,6 +583,10 @@
               <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a>
               <a href="mailto:contato@oiacengenharia.com.br">contato@oiacengenharia.com.br</a>
               <span style="font-size:14px;color:var(--color-text-muted);">Av. Principal, 1000<br>Goiânia – GO</span>
+              <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:rgba(255,255,255,0.55);margin-top:8px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.475-1.243 14.9.358c6.43 1.605 10.342 8.115 8.738 14.548v-.002zm-6.35-4.613c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525 2.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54 2.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35 1.407s.974.225.955.236c.535.136.63.486.615.766l-1.477 5.92c-.075.166-.24.415-.614.32.015.02-.96-.24-.96-.24l-.66 1.51 1.71.426.93.242-.54 2.19 1.32.327.54-2.165c.36.1.705.19 1.05.273l-.54 2.143 1.32.33.54-2.19c2.24.427 3.93.257 4.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193 1.5-.76 1.68-1.93h.01zm-3.01 4.22c-.404 1.64-3.157.75-4.05.53l.72-2.9c.896.23 3.757.67 3.33 2.37zm.41-4.24c-.37 1.49-2.662.735-3.405.55l.654-2.64c.744.18 3.137.524 2.75 2.084v.006z"/></svg>
+                Aceitamos criptomoedas
+              </span>
             </div>
           </div>
         </div>
