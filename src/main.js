@@ -20,7 +20,7 @@ const translations = {
     navAria: "Menu principal",
     nav: ["Portfólio", "Serviços", "A OIAC", "Contato"],
     mobile: {
-      phoneLabel: "(00) 0000-0000",
+      phoneLabel: "(88) 9 2189-2134",
       whatsapp: "WhatsApp",
       call: "Ligar",
     },
@@ -184,7 +184,7 @@ const translations = {
         "Solicitar orçamento",
         "Atendimento",
       ],
-      address: "Av. Principal, 1000<br>Goiânia – GO",
+      address: "Aracati – CE",
       copyright: "OIAC Engenharia. Todos os direitos reservados.",
       privacy: "Política de Privacidade",
     },
@@ -203,7 +203,7 @@ const translations = {
     navAria: "Menu principal",
     nav: ["Portfolio", "Services", "OIAC", "Contact"],
     mobile: {
-      phoneLabel: "(00) 0000-0000",
+      phoneLabel: "(88) 9 2189-2134",
       whatsapp: "WhatsApp",
       call: "Appeler",
     },
@@ -369,7 +369,7 @@ const translations = {
         "Demander un devis",
         "Service client",
       ],
-      address: "Av. Principal, 1000<br>Goiania – GO",
+      address: "Aracati – CE",
       copyright: "OIAC Ingenierie. Tous droits reserves.",
       privacy: "Politique de confidentialite",
     },
@@ -389,7 +389,7 @@ const translations = {
     navAria: "Main menu",
     nav: ["Portfolio", "Services", "About OIAC", "Contact"],
     mobile: {
-      phoneLabel: "(00) 0000-0000",
+      phoneLabel: "(88) 9 2189-2134",
       whatsapp: "WhatsApp",
       call: "Call",
     },
@@ -554,7 +554,7 @@ const translations = {
         "Request a quote",
         "Customer service",
       ],
-      address: "Main Avenue, 1000<br>Goiania – GO",
+      address: "Aracati – CE",
       copyright: "OIAC Engineering. All rights reserved.",
       privacy: "Privacy Policy",
     },
@@ -783,15 +783,136 @@ const portfolioItems = {
       },
     },
   },
-  "casa-em-canoa": {
-    cover: "/casa-em-canoa/21EAC4A9-8EEC-4891-9FD1-E47F202D5DD7.jpg",
+  "casa-major": {
+    cover: "/major/IMG_2808.jpg",
     gallery: [
-      "/casa-em-canoa/21EAC4A9-8EEC-4891-9FD1-E47F202D5DD7.jpg",
-      "/casa-em-canoa/3313f0ef-727e-495a-a446-730892ef939d.jpg",
-      "/casa-em-canoa/88fb9bbf-ef0b-45d9-81df-633b929b4ea5.jpg",
-      "/casa-em-canoa/892f1e33-c8ef-44c5-b140-0abb4eb9fefe.jpg",
-      "/casa-em-canoa/d655b664-5be7-4205-a8ef-a9795c11caec.jpg",
-      "/casa-em-canoa/E3627762-222E-41CD-9EA7-E60CBF9DABF2.jpg",
+      "/major/IMG_2808.jpg",
+      "/major/IMG_2797.jpg",
+      "/major/IMG_2800.jpg",
+      "/major/IMG_2821.jpg",
+      "/major/IMG_2815.jpg",
+      "/major/IMG_2803.jpg",
+    ],
+    translations: {
+      "pt-BR": {
+        category: "Residencial",
+        title: "Casa em Majorlândia",
+        location: "Majorlândia, Aracati – CE",
+        cardAlt: "Varanda com cobertura de palha e vista panorâmica em Majorlândia",
+        cardShort:
+          "Residência de dois pavimentos com piscina, deck, cobertura de palha e identidade litorânea em Majorlândia.",
+        mobileShort:
+          "Casa com piscina, deck e cobertura de palha em Majorlândia.",
+        ariaLabel: "Abrir detalhes da obra Casa em Majorlândia",
+        description:
+          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 81,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais — tijolo aparente, pedra tosca, madeira e cobertura de palha — ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
+        scope: [
+          "Execução de estrutura e vedações em dois pavimentos",
+          "Revestimentos em pedra tosca e tijolo aparente",
+          "Cobertura de palha e forro em bambu e madeira",
+          "Piscina com deck em porcelanato e deck em madeira",
+          "Escada em madeira, esquadrias e acabamentos internos",
+        ],
+        specs: [
+          ["Tipologia", "Residencial unifamiliar"],
+          ["Status", "81,5% concluído — obra em andamento"],
+          ["Pavimentos", "2 (térreo + superior)"],
+          ["Área do terreno", "323,17 m²"],
+          ["Área construída térreo", "223,33 m²"],
+          ["Área construída superior", "66,78 m²"],
+          ["Varanda térreo", "51,23 m²"],
+          ["Deck", "21,83 m²"],
+          ["Área total construída", "362,98 m²"],
+          ["Taxa de ocupação", "91,69%"],
+          ["Taxa de permeabilidade", "16,97%"],
+          ["Índice de aproveitamento", "1,12"],
+          ["Localização", "Majorlândia"],
+          ["Cidade", "Aracati – CE"],
+        ],
+      },
+      fr: {
+        category: "Résidentiel",
+        title: "Maison à Majorlândia",
+        location: "Majorlândia, Aracati – CE",
+        cardAlt: "Terrasse avec toiture en chaume et vue panoramique à Majorlândia",
+        cardShort:
+          "Maison de deux niveaux avec piscine, deck, toiture en chaume et identité balnéaire à Majorlândia.",
+        mobileShort:
+          "Maison avec piscine, deck et toiture en chaume à Majorlândia.",
+        ariaLabel: "Ouvrir les détails du projet Maison à Majorlândia",
+        description:
+          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 81,5 % d'avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels — brique apparente, pierre brute, bois et toiture en chaume — au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
+        scope: [
+          "Exécution de la structure et des cloisonnements sur deux niveaux",
+          "Revêtements en pierre brute et brique apparente",
+          "Toiture en chaume et plafond en bambou et bois",
+          "Piscine avec margelle en grès cérame et deck en bois",
+          "Escalier en bois, menuiseries et finitions intérieures",
+        ],
+        specs: [
+          ["Typologie", "Maison individuelle"],
+          ["Avancement", "81,5 % — chantier en cours"],
+          ["Niveaux", "2 (rez-de-chaussée + étage)"],
+          ["Surface du terrain", "323,17 m²"],
+          ["Surface construite RDC", "223,33 m²"],
+          ["Surface construite étage", "66,78 m²"],
+          ["Véranda RDC", "51,23 m²"],
+          ["Deck", "21,83 m²"],
+          ["Surface totale construite", "362,98 m²"],
+          ["Taux d'occupation", "91,69 %"],
+          ["Taux de perméabilité", "16,97 %"],
+          ["Indice d'exploitation", "1,12"],
+          ["Localisation", "Majorlândia"],
+          ["Ville", "Aracati – CE"],
+        ],
+      },
+      en: {
+        category: "Residential",
+        title: "House in Majorlândia",
+        location: "Majorlândia, Aracati – CE",
+        cardAlt: "Thatched roof terrace with panoramic view in Majorlândia",
+        cardShort:
+          "Two-storey house with pool, deck, thatched roof and coastal identity in Majorlândia.",
+        mobileShort:
+          "House with pool, deck and thatched roof in Majorlândia.",
+        ariaLabel: "Open details for the House in Majorlândia project",
+        description:
+          "Single-family residence in an advanced stage of construction in Majorlândia, 81.5% complete. The two-storey project integrates a rustic language and natural materials — exposed brick, rough stone, timber and thatched roofing — with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
+        scope: [
+          "Structural and masonry works across two storeys",
+          "Rough stone and exposed brick cladding",
+          "Thatched roofing with bamboo and timber ceiling",
+          "Pool with porcelain tile surround and wooden deck",
+          "Timber staircase, doors, windows and interior finishes",
+        ],
+        specs: [
+          ["Typology", "Single-family residential"],
+          ["Status", "81.5% complete — under construction"],
+          ["Storeys", "2 (ground floor + upper floor)"],
+          ["Site area", "323.17 m²"],
+          ["Built area – ground floor", "223.33 m²"],
+          ["Built area – upper floor", "66.78 m²"],
+          ["Ground floor veranda", "51.23 m²"],
+          ["Deck", "21.83 m²"],
+          ["Total built area", "362.98 m²"],
+          ["Site coverage", "91.69%"],
+          ["Permeability rate", "16.97%"],
+          ["Floor area ratio", "1.12"],
+          ["Location", "Majorlândia"],
+          ["City", "Aracati – CE"],
+        ],
+      },
+    },
+  },
+  "casa-em-canoa": {
+    cover: "/canoa-atualizado/IMG_2768.jpg",
+    gallery: [
+      "/canoa-atualizado/IMG_2768.jpg",
+      "/canoa-atualizado/IMG_2783.jpg",
+      "/canoa-atualizado/IMG_2786.jpg",
+      "/canoa-atualizado/IMG_2788.jpg",
+      "/canoa-atualizado/IMG_2773.jpg",
+      "/canoa-atualizado/IMG_2766.jpg",
     ],
     translations: {
       "pt-BR": {
@@ -805,7 +926,7 @@ const portfolioItems = {
           "Obra em andamento — reta final dos acabamentos em Canoa Quebrada.",
         ariaLabel: "Abrir detalhes da obra Casa em Canoa Quebrada",
         description:
-          "Residência unifamiliar em fase de finalização em Canoa Quebrada. A obra encontra-se com 85% de conclusão, com os ambientes internos em etapa de acabamento e os serviços externos em andamento. O projeto integra linguagem contemporânea ao contexto litorâneo da região.",
+          "Residência unifamiliar em fase de finalização em Canoa Quebrada. A obra encontra-se com 94,3% de conclusão, com os ambientes internos em etapa de acabamento e os serviços externos em andamento. O projeto integra linguagem contemporânea ao contexto litorâneo da região.",
         scope: [
           "Execução da estrutura e vedações",
           "Instalações elétricas e hidráulicas",
@@ -815,7 +936,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "85% concluído — obra em andamento"],
+          ["Status", "94,3% concluído — obra em andamento"],
           ["Localização", "Canoa Quebrada"],
           ["Cidade", "Aracati – CE"],
         ],
@@ -831,7 +952,7 @@ const portfolioItems = {
           "Chantier en cours — dernière ligne droite des finitions à Canoa Quebrada.",
         ariaLabel: "Ouvrir les détails du projet Maison à Canoa Quebrada",
         description:
-          "Maison individuelle en phase de finalisation à Canoa Quebrada. Le chantier est avancé à 85 %, avec les espaces intérieurs en cours de finition et les travaux extérieurs en cours. Le projet intègre un langage contemporain au contexte balnéaire de la région.",
+          "Maison individuelle en phase de finalisation à Canoa Quebrada. Le chantier est avancé à 94,3 %, avec les espaces intérieurs en cours de finition et les travaux extérieurs en cours. Le projet intègre un langage contemporain au contexte balnéaire de la région.",
         scope: [
           "Exécution de la structure et des cloisonnements",
           "Installations électriques et plomberie",
@@ -841,7 +962,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "85 % — chantier en cours"],
+          ["Avancement", "94,3 % — chantier en cours"],
           ["Localisation", "Canoa Quebrada"],
           ["Ville", "Aracati – CE"],
         ],
@@ -857,7 +978,7 @@ const portfolioItems = {
           "Under construction — final finishing stage in Canoa Quebrada.",
         ariaLabel: "Open details for the Casa em Canoa Quebrada project",
         description:
-          "Single-family residence in its final construction phase in Canoa Quebrada. The project is 85% complete, with interior finishes under way and exterior works in progress. The design blends a contemporary language with the coastal character of the region.",
+          "Single-family residence in its final construction phase in Canoa Quebrada. The project is 94.3% complete, with interior finishes under way and exterior works in progress. The design blends a contemporary language with the coastal character of the region.",
         scope: [
           "Structural and masonry works",
           "Electrical and plumbing installations",
@@ -867,7 +988,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "85% complete — under construction"],
+          ["Status", "94.3% complete — under construction"],
           ["Location", "Canoa Quebrada"],
           ["City", "Aracati – CE"],
         ],

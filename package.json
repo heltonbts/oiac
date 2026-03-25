@@ -12,6 +12,7 @@
     "swiper": "^11.2.6"
   },
   "devDependencies": {
+    "heic-convert": "^2.1.0",
     "vite": "^7.1.3"
   }
 }
