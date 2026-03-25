@@ -2,6 +2,9 @@ import Swiper from "swiper";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "./styles.css";
 
+const BASE = import.meta.env.BASE_URL;
+const assetUrl = (path) => BASE + path.replace(/^\//, "");
+
 const defaultLocale = "pt-BR";
 const supportedLocales = ["pt-BR", "fr", "en"];
 
@@ -1117,7 +1120,7 @@ const openPortfolioModal = (portfolioId) => {
 
   const modalUi = translations[currentLocale].modal;
   activePortfolioId = portfolioId;
-  portfolioModalCover.src = item.cover;
+  portfolioModalCover.src = assetUrl(item.cover);
   portfolioModalCover.alt = item.title;
   portfolioModalCategory.textContent = item.category;
   portfolioModalTitle.textContent = item.title;
@@ -1142,7 +1145,7 @@ const openPortfolioModal = (portfolioId) => {
   portfolioModalGallery.innerHTML = item.gallery
     .map(
       (image, index) =>
-        `<img src="${image}" alt="${item.title} - ${modalUi.galleryAlt} ${index + 1}" loading="lazy" />`,
+        `<img src="${assetUrl(image)}" alt="${item.title} - ${modalUi.galleryAlt} ${index + 1}" loading="lazy" />`,
     )
     .join("");
 
