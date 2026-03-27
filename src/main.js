@@ -11,9 +11,9 @@ const supportedLocales = ["pt-BR", "fr", "en"];
 const translations = {
   "pt-BR": {
     meta: {
-      title: "OIAC Engenharia — Soluções Técnicas para Obras e Projetos",
+      title: "OIAC Engenharia: Soluções Técnicas para Obras e Projetos",
       description:
-        "OIAC Engenharia — Soluções em administração de obras, regularização, projetos arquitetônicos e consultoria técnica.",
+        "OIAC Engenharia: Soluções em administração de obras, regularização, projetos arquitetônicos e consultoria técnica.",
     },
     languageSwitcherAria: "Selecionar idioma",
     internationalBadge: {
@@ -126,7 +126,7 @@ const translations = {
         ],
         [
           "Pagamento em criptomoedas",
-          "Aceitamos Bitcoin, Ethereum e USDT — flexibilidade real para clientes nacionais e internacionais contratarem sem barreiras.",
+          "Aceitamos Bitcoin, Ethereum e USDT, flexibilidade real para clientes nacionais e internacionais contratarem sem barreiras.",
         ],
       ],
     },
@@ -150,7 +150,7 @@ const translations = {
           "Escreva sua mensagem...",
         ],
         options: [
-          "— Selecione —",
+          "Selecione",
           "Administração e Execução de Obras",
           "Consultoria, Assessoria e Viabilidade",
           "Regularização",
@@ -194,9 +194,9 @@ const translations = {
   },
   fr: {
     meta: {
-      title: "OIAC Ingenierie — Solutions techniques pour chantiers et projets",
+      title: "OIAC Ingénierie: Solutions techniques pour chantiers et projets",
       description:
-        "OIAC Ingenierie — Solutions en gestion de chantiers, regularisation, projets architecturaux et conseil technique.",
+        "OIAC Ingénierie: Solutions en gestion de chantiers, régularisation, projets architecturaux et conseil technique.",
     },
     languageSwitcherAria: "Choisir la langue",
     internationalBadge: {
@@ -214,45 +214,45 @@ const translations = {
     hero: [
       {
         id: "hero-1",
-        title: "Gestion<br>et Execution",
-        description: "Gestion, execution, planning, couts et qualite",
-        location: "Suivi complet du debut jusqu a la livraison",
-        cta: "Decouvrir les services",
-        alt: "Equipe d ingenierie analysant un chantier",
+        title: "Gestion<br>et Exécution",
+        description: "Gestion, exécution, planning, coûts et qualité",
+        location: "Suivi complet du début jusqu'à la livraison",
+        cta: "Découvrir les services",
+        alt: "Équipe d'ingénierie analysant un chantier",
       },
       {
         id: "hero-2",
-        title: "Conseil,<br>Assistance et Faisabilite",
+        title: "Conseil,<br>Assistance et Faisabilité",
         description:
-          "Analyse technique, strategique et validation du perimetre",
+          "Analyse technique, stratégique et validation du périmètre",
         location:
-          "Des decisions plus sures pour implanter et viabiliser les projets",
-        cta: "Decouvrir les services",
-        alt: "Conseil technique pour la faisabilite des projets",
+          "Des décisions plus sûres pour implanter et viabiliser les projets",
+        cta: "Découvrir les services",
+        alt: "Conseil technique pour la faisabilité des projets",
       },
       {
         id: "hero-3",
-        title: "Regularisation",
-        description: "Documentation technique et support legal",
-        location: "Approbation, mise en conformite et securite pour votre bien",
-        cta: "Decouvrir les services",
-        alt: "Documentation technique pour la regularisation d un bien",
+        title: "Régularisation",
+        description: "Documentation technique et support légal",
+        location: "Approbation, mise en conformité et sécurité pour votre bien",
+        cta: "Découvrir les services",
+        alt: "Documentation technique pour la régularisation d'un bien",
       },
     ],
     portfolio: {
       small: "Portfolio",
-      big: "Realisations",
+      big: "Réalisations",
     },
     modal: {
-      closeAria: "Fermer les details du projet",
+      closeAria: "Fermer les détails du projet",
       sections: [
-        "A propos du projet",
-        "Perimetre realise",
+        "À propos du projet",
+        "Périmètre réalisé",
         "Fiche technique",
-        "Video du projet",
+        "Vidéo du projet",
         "Galerie",
       ],
-      videoTitle: "Video du projet",
+      vidéoTitle: "Vidéo du projet",
       galleryAlt: "photo",
     },
     services: {
@@ -260,58 +260,58 @@ const translations = {
       big: "Nos Services",
       items: [
         [
-          "Gestion et Execution de Chantier",
-          "Gestion complete du chantier avec execution, planification, approvisionnements et interventions sur patrimoine historique.",
+          "Gestion et Exécution de Chantier",
+          "Gestion complète du chantier avec exécution, planification, approvisionnements et interventions sur patrimoine historique.",
         ],
         [
-          "Conseil, Assistance et Faisabilite",
-          "Analyse technique et strategique pour orienter les decisions, valider le perimetre, les couts, l implantation et la faisabilite des projets.",
+          "Conseil, Assistance et Faisabilité",
+          "Analyse technique et stratégique pour orienter les décisions, valider le périmètre, les coûts, l'implantation et la faisabilité des projets.",
         ],
         [
-          "Regularisation",
-          "Support pour conformite, enregistrement, adaptations, documentation et procedures aupres des organismes competents.",
+          "Régularisation",
+          "Support pour conformité, enregistrement, adaptations, documentation et procédures auprès des organismes compétents.",
         ],
         [
           "Rapports et Inspections",
-          "Inspections techniques, avis, rapports et diagnostics pour l evaluation des pathologies, de la conformite et l aide a la decision.",
+          "Inspections techniques, avis, rapports et diagnostics pour l'évaluation des pathologies, de la conformité et l'aide à la décision.",
         ],
         [
           "Projets et Coordination",
-          "Developpement et integration entre architecture, structure et installations pour reduire les conflits et apporter plus de previsibilite a l execution.",
+          "Développement et intégration entre architecture, structure et installations pour réduire les conflits et apporter plus de prévisibilité à l'exécution.",
         ],
       ],
     },
     advantages: {
       small: "Pourquoi Choisir",
-      big: "OIAC Ingenierie",
+      big: "OIAC Ingénierie",
       items: [
         [
           "Gestion technique avec vision pratique",
-          "Intervention guidee par la planification, le controle et la prise de decision basee sur des criteres techniques.",
+          "Intervention guidée par la planification, le contrôle et la prise de décision basée sur des critères techniques.",
         ],
         [
           "Solutions sur mesure",
-          "Chaque projet et chaque chantier recoivent une approche adaptee aux objectifs, au budget, au delai et a des modeles contractuels plus souples.",
+          "Chaque projet et chaque chantier reçoivent une approche adaptée aux objectifs, au budget, au délai et à des modèles contractuels plus souples.",
         ],
         [
           "Coordination et organisation",
-          "Integration entre disciplines, reduction des reprises et meilleure previsibilite pendant l execution.",
+          "Intégration entre disciplines, réduction des reprises et meilleure prévisibilité pendant l'exécution.",
         ],
         [
-          "Regularisation en toute securite",
-          "Support technique pour documentation, approbations, rapports et exigences legales du bien ou du projet.",
+          "Régularisation en toute sécurité",
+          "Support technique pour documentation, approbations, rapports et exigences légales du bien ou du projet.",
         ],
         [
-          "Suivi de proximite",
+          "Suivi de proximité",
           "Communication claire, rapports objectifs et accompagnement continu tout au long du processus.",
         ],
         [
           "Intervention pluridisciplinaire",
-          "Projets, chantiers, expertises, regularisation et conseil reunis dans une seule operation technique.",
+          "Projets, chantiers, expertises, régularisation et conseil réunis dans une seule opération technique.",
         ],
         [
           "Paiement en cryptomonnaies",
-          "Nous acceptons le Bitcoin, l Ethereum et l USDT — une flexibilite reelle pour que les clients nationaux et internationaux contractent sans frontieres.",
+          "Nous acceptons le Bitcoin, l'Ethereum et l'USDT, une flexibilité réelle pour que les clients nationaux et internationaux contractent sans frontières.",
         ],
       ],
     },
@@ -319,11 +319,11 @@ const translations = {
       small: "Parlez-Nous",
       big: "Entrer en Contact",
       description:
-        "Notre equipe est prete a comprendre votre besoin et a indiquer la meilleure solution en projets, chantiers, regularisation et conseil technique.",
+        "Notre équipe est prête à comprendre votre besoin et à indiquer la meilleure solution en projets, chantiers, régularisation et conseil technique.",
       form: {
         labels: [
           "Votre nom",
-          "Telephone",
+          "Téléphone",
           "E-mail",
           "Service recherche",
           "Message",
@@ -332,57 +332,57 @@ const translations = {
           "Jean Dupont",
           "(00) 00000-0000",
           "jean@email.com",
-          "Ecrivez votre message...",
+          "Écrivez votre message...",
         ],
         options: [
-          "— Selectionnez —",
-          "Gestion et Execution de Chantier",
-          "Conseil, Assistance et Faisabilite",
-          "Regularisation",
+          "Sélectionnez",
+          "Gestion et Exécution de Chantier",
+          "Conseil, Assistance et Faisabilité",
+          "Régularisation",
           "Rapports et Inspections",
           "Projets et Coordination",
           "Autre",
         ],
         termsHtml:
-          'J ai lu et j accepte les <a href="#" style="color:var(--color-primary);text-decoration:underline;">Conditions generales</a> et la <a href="#" style="color:var(--color-primary);text-decoration:underline;">Politique de confidentialite</a>',
+          "J'ai lu et j'accepte les <a href=\"#\" style=\"color:var(--color-primary);text-decoration:underline;\">Conditions générales</a> et la <a href=\"#\" style=\"color:var(--color-primary);text-decoration:underline;\">Politique de confidentialité</a>",
         submit: "Envoyer le Message",
-        success: "Message envoye ! Nous vous contacterons bientot.",
+        success: "Message envoyé ! Nous vous contacterons bientôt.",
       },
     },
     newsletter: {
-      title: "Recevez des contenus et nouveautes de l ingenierie",
+      title: "Recevez des contenus et nouveautés de l'ingénierie",
       placeholder: "Votre meilleur e-mail...",
-      button: "S inscrire",
-      alert: "Merci ! Vous recevrez bientot nos nouveautes.",
+      button: "S'inscrire",
+      alert: "Merci ! Vous recevrez bientôt nos nouveautés.",
     },
     footer: {
       tagline:
-        "Entreprise d ingenierie centree sur la gestion, les projets et la regularisation.<br> Des solutions techniques pour chantiers et biens avec rigueur et clarte.",
-      headings: ["Services", "L Entreprise", "Contact"],
+        "Entreprise d'ingénierie centrée sur la gestion, les projets et la régularisation.<br> Des solutions techniques pour chantiers et biens avec rigueur et clarté.",
+      headings: ["Services", "L'Entreprise", "Contact"],
       services: [
-        "Gestion et Execution de Chantier",
-        "Conseil et Faisabilite",
-        "Regularisation",
+        "Gestion et Exécution de Chantier",
+        "Conseil et Faisabilité",
+        "Régularisation",
         "Rapports et Inspections",
         "Projets et Coordination",
       ],
       company: [
         "Qui nous sommes",
-        "Differenciateurs",
+        "Différenciateurs",
         "Demander un devis",
         "Service client",
       ],
       address: "Aracati – CE",
-      copyright: "OIAC Ingenierie. Tous droits reserves.",
-      privacy: "Politique de confidentialite",
+      copyright: "OIAC Ingénierie. Tous droits réservés.",
+      privacy: "Politique de confidentialité",
     },
   },
   en: {
     meta: {
       title:
-        "OIAC Engineering — Technical solutions for construction and projects",
+        "OIAC Engineering: Technical solutions for construction and projects",
       description:
-        "OIAC Engineering — Solutions for construction management, compliance, architectural design and technical consulting.",
+        "OIAC Engineering: Solutions for construction management, compliance, architectural design and technical consulting.",
     },
     languageSwitcherAria: "Choose language",
     internationalBadge: {
@@ -476,7 +476,7 @@ const translations = {
         ],
         [
           "Tailored solutions",
-          "Every project and every construction site receives an approach aligned with the client s goals, budget, schedule and more flexible commercial arrangements.",
+          "Every project and every construction site receives an approach aligned with the client's goals, budget, schedule and more flexible commercial arrangements.",
         ],
         [
           "Coordination and organization",
@@ -496,7 +496,7 @@ const translations = {
         ],
         [
           "Cryptocurrency payments accepted",
-          "We accept Bitcoin, Ethereum and USDT — real flexibility for domestic and international clients to engage without financial barriers.",
+          "We accept Bitcoin, Ethereum and USDT, real flexibility for domestic and international clients to engage without financial barriers.",
         ],
       ],
     },
@@ -520,7 +520,7 @@ const translations = {
           "Write your message...",
         ],
         options: [
-          "— Select —",
+          "Select",
           "Construction Management and Execution",
           "Consulting, Advisory and Feasibility",
           "Compliance",
@@ -616,15 +616,15 @@ const portfolioItems = {
         cardShort:
           "Implantation avec patio interieur et espaces chaleureux en bois.",
         mobileShort: "Projet avec loisir central et interieurs signatures.",
-        ariaLabel: "Ouvrir les details du projet Vila Severina",
+        ariaLabel: "Ouvrir les détails du projet Vila Severina",
         description:
           "Projet residentiel a l atmosphere balneaire, mettant en valeur le patio interieur, la piscine centrale et une composition avec 5 suites, espace gourmet, salon, buanderie et depot.",
         scope: [
           "Composition volumetrique avec une ecriture legere et horizontale",
           "Valorisation de l espace de loisir comme noyau central du projet",
-          "Integration entre deck, piscine, paysage et acces couverts",
+          "Intégration entre deck, piscine, paysage et acces couverts",
           "Distribution fonctionnelle avec 5 suites et espaces d appui complets",
-          "Prises de vue aeriennes pour presenter l ensemble et l implantation",
+          "Prises de vue aeriennes pour presenter l ensemble et l'implantation",
         ],
         specs: [
           ["Typologie", "Residentiel"],
@@ -649,7 +649,7 @@ const portfolioItems = {
           "Layout centered on an internal courtyard and warm timber-lined interiors.",
         mobileShort:
           "Project with a central leisure core and distinctive interiors.",
-        ariaLabel: "Open details for the Vila Severina project",
+        ariaLabel: "Open détails for the Vila Severina project",
         description:
           "Residential project with a coastal atmosphere, highlighting the internal courtyard, the central pool and a layout with 5 suites, gourmet area, living room, laundry room and storage.",
         scope: [
@@ -763,7 +763,7 @@ const portfolioItems = {
         mobileShort:
           "Duplex bungalow with deck and natural materials at Pontal de Maceió.",
         ariaLabel:
-          "Open details for the Duplex Bungalow at Pontal de Maceió project",
+          "Open détails for the Duplex Bungalow at Pontal de Maceió project",
         description:
           "Construction and finishing project for a duplex bungalow in a beachfront setting, featuring a timber structure and thatched roof. The programme includes an outdoor restroom, laundry room and kite storage, with polished concrete finishes, a continuous deck and natural materials in keeping with the coastal character of the site.",
         scope: [
@@ -808,7 +808,7 @@ const portfolioItems = {
           "Casa com piscina, deck e cobertura de palha em Majorlândia.",
         ariaLabel: "Abrir detalhes da obra Casa em Majorlândia",
         description:
-          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 81,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais — tijolo aparente, pedra tosca, madeira e cobertura de palha — ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
+          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 81,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais, tijolo aparente, pedra tosca, madeira e cobertura de palha, ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
         scope: [
           "Execução de estrutura e vedações em dois pavimentos",
           "Revestimentos em pedra tosca e tijolo aparente",
@@ -818,7 +818,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "81,5% concluído — obra em andamento"],
+          ["Status", "81,5% concluído, obra em andamento"],
           ["Pavimentos", "2 (térreo + superior)"],
           ["Área do terreno", "323,17 m²"],
           ["Área construída térreo", "223,33 m²"],
@@ -844,7 +844,7 @@ const portfolioItems = {
           "Maison avec piscine, deck et toiture en chaume à Majorlândia.",
         ariaLabel: "Ouvrir les détails du projet Maison à Majorlândia",
         description:
-          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 81,5 % d'avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels — brique apparente, pierre brute, bois et toiture en chaume — au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
+          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 81,5 % d'avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels, brique apparente, pierre brute, bois et toiture en chaume, au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
         scope: [
           "Exécution de la structure et des cloisonnements sur deux niveaux",
           "Revêtements en pierre brute et brique apparente",
@@ -854,7 +854,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "81,5 % — chantier en cours"],
+          ["Avancement", "81,5 %, chantier en cours"],
           ["Niveaux", "2 (rez-de-chaussée + étage)"],
           ["Surface du terrain", "323,17 m²"],
           ["Surface construite RDC", "223,33 m²"],
@@ -878,9 +878,9 @@ const portfolioItems = {
           "Two-storey house with pool, deck, thatched roof and coastal identity in Majorlândia.",
         mobileShort:
           "House with pool, deck and thatched roof in Majorlândia.",
-        ariaLabel: "Open details for the House in Majorlândia project",
+        ariaLabel: "Open détails for the House in Majorlândia project",
         description:
-          "Single-family residence in an advanced stage of construction in Majorlândia, 81.5% complete. The two-storey project integrates a rustic language and natural materials — exposed brick, rough stone, timber and thatched roofing — with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
+          "Single-family residence in an advanced stage of construction in Majorlândia, 81.5% complete. The two-storey project integrates a rustic language and natural materials, exposed brick, rough stone, timber and thatched roofing, with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
         scope: [
           "Structural and masonry works across two storeys",
           "Rough stone and exposed brick cladding",
@@ -890,7 +890,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "81.5% complete — under construction"],
+          ["Status", "81.5% complete, under construction"],
           ["Storeys", "2 (ground floor + upper floor)"],
           ["Site area", "323.17 m²"],
           ["Built area – ground floor", "223.33 m²"],
@@ -924,9 +924,9 @@ const portfolioItems = {
         location: "Canoa Quebrada – CE",
         cardAlt: "Fachada da Casa em Canoa Quebrada em execução",
         cardShort:
-          "Obra em andamento em Canoa Quebrada — finalização dos ambientes internos e acabamentos externos.",
+          "Obra em andamento em Canoa Quebrada, finalização dos ambientes internos e acabamentos externos.",
         mobileShort:
-          "Obra em andamento — reta final dos acabamentos em Canoa Quebrada.",
+          "Obra em andamento, reta final dos acabamentos em Canoa Quebrada.",
         ariaLabel: "Abrir detalhes da obra Casa em Canoa Quebrada",
         description:
           "Residência unifamiliar em fase de finalização em Canoa Quebrada. A obra encontra-se com 94,3% de conclusão, com os ambientes internos em etapa de acabamento e os serviços externos em andamento. O projeto integra linguagem contemporânea ao contexto litorâneo da região.",
@@ -939,7 +939,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "94,3% concluído — obra em andamento"],
+          ["Status", "94,3% concluído, obra em andamento"],
           ["Localização", "Canoa Quebrada"],
           ["Cidade", "Aracati – CE"],
         ],
@@ -950,9 +950,9 @@ const portfolioItems = {
         location: "Canoa Quebrada – CE",
         cardAlt: "Façade de la Maison à Canoa Quebrada en cours de construction",
         cardShort:
-          "Chantier en cours à Canoa Quebrada — finition des espaces intérieurs et travaux extérieurs.",
+          "Chantier en cours à Canoa Quebrada, finition des espaces intérieurs et travaux extérieurs.",
         mobileShort:
-          "Chantier en cours — dernière ligne droite des finitions à Canoa Quebrada.",
+          "Chantier en cours, dernière ligne droite des finitions à Canoa Quebrada.",
         ariaLabel: "Ouvrir les détails du projet Maison à Canoa Quebrada",
         description:
           "Maison individuelle en phase de finalisation à Canoa Quebrada. Le chantier est avancé à 94,3 %, avec les espaces intérieurs en cours de finition et les travaux extérieurs en cours. Le projet intègre un langage contemporain au contexte balnéaire de la région.",
@@ -965,7 +965,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "94,3 % — chantier en cours"],
+          ["Avancement", "94,3 %, chantier en cours"],
           ["Localisation", "Canoa Quebrada"],
           ["Ville", "Aracati – CE"],
         ],
@@ -976,10 +976,10 @@ const portfolioItems = {
         location: "Canoa Quebrada – CE",
         cardAlt: "Facade of Casa em Canoa Quebrada under construction",
         cardShort:
-          "Project under construction in Canoa Quebrada — finishing interiors and completing exterior works.",
+          "Project under construction in Canoa Quebrada, finishing interiors and completing exterior works.",
         mobileShort:
-          "Under construction — final finishing stage in Canoa Quebrada.",
-        ariaLabel: "Open details for the Casa em Canoa Quebrada project",
+          "Under construction, final finishing stage in Canoa Quebrada.",
+        ariaLabel: "Open détails for the Casa em Canoa Quebrada project",
         description:
           "Single-family residence in its final construction phase in Canoa Quebrada. The project is 94.3% complete, with interior finishes under way and exterior works in progress. The design blends a contemporary language with the coastal character of the region.",
         scope: [
@@ -991,7 +991,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "94.3% complete — under construction"],
+          ["Status", "94.3% complete, under construction"],
           ["Location", "Canoa Quebrada"],
           ["City", "Aracati – CE"],
         ],
@@ -1021,10 +1021,10 @@ const portfolioModalDescription = document.getElementById(
 );
 const portfolioModalScope = document.getElementById("portfolio-modal-scope");
 const portfolioModalSpecs = document.getElementById("portfolio-modal-specs");
-const portfolioModalVideoSection = document.getElementById(
-  "portfolio-modal-video-section",
+const portfolioModalVidéoSection = document.getElementById(
+  "portfolio-modal-vidéo-section",
 );
-const portfolioModalVideo = document.getElementById("portfolio-modal-video");
+const portfolioModalVidéo = document.getElementById("portfolio-modal-vidéo");
 const portfolioModalGallery = document.getElementById(
   "portfolio-modal-gallery",
 );
@@ -1109,7 +1109,7 @@ const closePortfolioModal = () => {
   if (!portfolioModal?.classList.contains("open")) return;
   portfolioModal.classList.remove("open");
   portfolioModal.setAttribute("aria-hidden", "true");
-  portfolioModalVideo.innerHTML = "";
+  portfolioModalVidéo.innerHTML = "";
   document.body.classList.remove("modal-open");
   activePortfolioId = null;
 };
@@ -1134,12 +1134,12 @@ const openPortfolioModal = (portfolioId) => {
     .map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`)
     .join("");
 
-  if (item.video) {
-    portfolioModalVideoSection?.classList.remove("is-hidden");
-    portfolioModalVideo.innerHTML = `<iframe src="${item.video}" title="${modalUi.videoTitle} ${item.title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+  if (item.vidéo) {
+    portfolioModalVidéoSection?.classList.remove("is-hidden");
+    portfolioModalVidéo.innerHTML = `<iframe src="${item.vidéo}" title="${modalUi.vidéoTitle} ${item.title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   } else {
-    portfolioModalVideoSection?.classList.add("is-hidden");
-    portfolioModalVideo.innerHTML = "";
+    portfolioModalVidéoSection?.classList.add("is-hidden");
+    portfolioModalVidéo.innerHTML = "";
   }
 
   portfolioModalGallery.innerHTML = item.gallery
