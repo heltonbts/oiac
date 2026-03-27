@@ -252,7 +252,7 @@ const translations = {
         "Vidéo du projet",
         "Galerie",
       ],
-      vidéoTitle: "Vidéo du projet",
+      videoTitle: "Vidéo du projet",
       galleryAlt: "photo",
     },
     services: {
@@ -569,11 +569,12 @@ const portfolioItems = {
     cover: "/vila-serverina/IMG_4639.JPG",
     gallery: [
       "/vila-serverina/IMG_4639.JPG",
-      "/vila-serverina/dji_fly_20251223_095156_64_1766495544621_photo.jpg",
       "/vila-serverina/dji_fly_20251223_095210_65_1766495540778_photo.jpg",
+      "/vila-serverina/dji_fly_20251223_095624_75_1766495421452_photo.jpg",
       "/vila-serverina/IMG_4550.jpg",
-      "/vila-serverina/IMG_4562.jpg",
       "/vila-serverina/IMG_4531.jpg",
+      "/vila-serverina/IMG_4562.jpg",
+      "/vila-serverina/IMG_4513.jpg",
     ],
     translations: {
       "pt-BR": {
@@ -1022,9 +1023,9 @@ const portfolioModalDescription = document.getElementById(
 const portfolioModalScope = document.getElementById("portfolio-modal-scope");
 const portfolioModalSpecs = document.getElementById("portfolio-modal-specs");
 const portfolioModalVidéoSection = document.getElementById(
-  "portfolio-modal-vidéo-section",
+  "portfolio-modal-video-section",
 );
-const portfolioModalVidéo = document.getElementById("portfolio-modal-vidéo");
+const portfolioModalVidéo = document.getElementById("portfolio-modal-video");
 const portfolioModalGallery = document.getElementById(
   "portfolio-modal-gallery",
 );
@@ -1134,9 +1135,9 @@ const openPortfolioModal = (portfolioId) => {
     .map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`)
     .join("");
 
-  if (item.vidéo) {
+  if (item.video) {
     portfolioModalVidéoSection?.classList.remove("is-hidden");
-    portfolioModalVidéo.innerHTML = `<iframe src="${item.vidéo}" title="${modalUi.vidéoTitle} ${item.title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    portfolioModalVidéo.innerHTML = `<iframe src="${item.video}" title="${modalUi.videoTitle} ${item.title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   } else {
     portfolioModalVidéoSection?.classList.add("is-hidden");
     portfolioModalVidéo.innerHTML = "";
