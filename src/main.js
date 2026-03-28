@@ -1,5 +1,7 @@
 import Swiper from "swiper";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 import "./styles.css";
 
 const BASE = import.meta.env.BASE_URL;
@@ -568,9 +570,8 @@ const portfolioItems = {
   "vila-severina": {
     cover: "/vila-serverina/IMG_4639.JPG",
     gallery: [
-      "/vila-serverina/IMG_4639.JPG",
-      "/vila-serverina/dji_fly_20251223_095210_65_1766495540778_photo.jpg",
-      "/vila-serverina/dji_fly_20251223_095624_75_1766495421452_photo.jpg",
+      "/vila-serverina/dji_fly_20251223_095156_64_1766495544621_photo.jpg",
+      "/vila-serverina/IMG_4548.jpg",
       "/vila-serverina/IMG_4550.jpg",
       "/vila-serverina/IMG_4531.jpg",
       "/vila-serverina/IMG_4562.jpg",
@@ -790,7 +791,7 @@ const portfolioItems = {
   "casa-major": {
     cover: "/major/IMG_2808.jpg",
     gallery: [
-      "/major/IMG_2808.jpg",
+      "/major/IMG_2816.jpg",
       "/major/IMG_2797.jpg",
       "/major/IMG_2800.jpg",
       "/major/IMG_2821.jpg",
@@ -911,7 +912,7 @@ const portfolioItems = {
   "casa-em-canoa": {
     cover: "/canoa-atualizado/IMG_2768.jpg",
     gallery: [
-      "/canoa-atualizado/IMG_2768.jpg",
+      "/canoa-atualizado/IMG_2771.jpg",
       "/canoa-atualizado/IMG_2783.jpg",
       "/canoa-atualizado/IMG_2786.jpg",
       "/canoa-atualizado/IMG_2788.jpg",
@@ -1430,3 +1431,47 @@ const revealObserver = new IntersectionObserver(
 document
   .querySelectorAll(".reveal")
   .forEach((el) => revealObserver.observe(el));
+
+// =========================================================
+//  MAPA — ÁREA DE ATUAÇÃO
+// =========================================================
+const mapEl = document.getElementById("atuacao-map");
+if (mapEl) {
+  const map = L.map("atuacao-map", {
+    scrollWheelZoom: false,
+    zoomControl: true,
+  }).setView([-4.50, -37.72], 11);
+
+  L.tileLayer(
+    "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+      maxZoom: 19,
+    },
+  ).addTo(map);
+
+  const markerIcon = L.divIcon({
+    className: "",
+    html: '<div class="map-marker__dot"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+    popupAnchor: [0, -10],
+  });
+
+  const locations = [
+    { name: "Aracati", coords: [-4.5617, -37.7689] },
+    { name: "Canoa Quebrada", coords: [-4.5245, -37.7057] },
+    { name: "Majorlândia", coords: [-4.5526, -37.6738] },
+    { name: "Quixaba", coords: [-4.5699, -37.6598] },
+    { name: "Fortim", coords: [-4.4513, -37.7981] },
+    { name: "Pontal de Maceió", coords: [-4.3996, -37.7865] },
+    { name: "Canto da Barra", coords: [-4.4472, -37.7756] },
+  ];
+
+  locations.forEach(({ name, coords }) => {
+    L.marker(coords, { icon: markerIcon })
+      .addTo(map)
+      .bindPopup(`<strong>${name}</strong>`);
+  });
+}
