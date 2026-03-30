@@ -126,10 +126,6 @@ const translations = {
           "Atuação multidisciplinar",
           "Projetos, obras, perícias, regularização e consultoria reunidos em uma única operação técnica.",
         ],
-        [
-          "Pagamento em criptomoedas",
-          "Aceitamos Bitcoin, Ethereum e USDT, flexibilidade real para clientes nacionais e internacionais contratarem sem barreiras.",
-        ],
       ],
     },
     contact: {
@@ -311,10 +307,6 @@ const translations = {
           "Intervention pluridisciplinaire",
           "Projets, chantiers, expertises, régularisation et conseil réunis dans une seule opération technique.",
         ],
-        [
-          "Paiement en cryptomonnaies",
-          "Nous acceptons le Bitcoin, l'Ethereum et l'USDT, une flexibilité réelle pour que les clients nationaux et internationaux contractent sans frontières.",
-        ],
       ],
     },
     contact: {
@@ -495,10 +487,6 @@ const translations = {
         [
           "Multidisciplinary operation",
           "Projects, construction, expert assessments, compliance and consulting combined in a single technical operation.",
-        ],
-        [
-          "Cryptocurrency payments accepted",
-          "We accept Bitcoin, Ethereum and USDT, real flexibility for domestic and international clients to engage without financial barriers.",
         ],
       ],
     },
@@ -912,10 +900,10 @@ const portfolioItems = {
   "casa-em-canoa": {
     cover: "/canoa-atualizado/IMG_2768.jpg",
     gallery: [
-      "/canoa-atualizado/IMG_2771.jpg",
+      "/canoa-atualizado/IMG_2779.jpg",
       "/canoa-atualizado/IMG_2783.jpg",
       "/canoa-atualizado/IMG_2786.jpg",
-      "/canoa-atualizado/IMG_2788.jpg",
+      "/canoa-atualizado/IMG_2790.jpg",
       "/canoa-atualizado/IMG_2773.jpg",
       "/canoa-atualizado/IMG_2766.jpg",
     ],
@@ -944,6 +932,13 @@ const portfolioItems = {
           ["Status", "94,3% concluído, obra em andamento"],
           ["Localização", "Canoa Quebrada"],
           ["Cidade", "Aracati – CE"],
+          ["Área do terreno", "2.947,47 m²"],
+          ["Área coberta", "529,13 m²"],
+          ["Área descoberta", "1.870,14 m²"],
+          ["Área permeável", "2.449,67 m²"],
+          ["Taxa de ocupação", "18,76%"],
+          ["Permeabilidade", "82,76%"],
+          ["Índice de aproveitamento", "0,18"],
         ],
       },
       fr: {
@@ -970,6 +965,13 @@ const portfolioItems = {
           ["Avancement", "94,3 %, chantier en cours"],
           ["Localisation", "Canoa Quebrada"],
           ["Ville", "Aracati – CE"],
+          ["Surface du terrain", "2 947,47 m²"],
+          ["Surface couverte", "529,13 m²"],
+          ["Surface découverte", "1 870,14 m²"],
+          ["Surface perméable", "2 449,67 m²"],
+          ["Taux d'occupation", "18,76 %"],
+          ["Perméabilité", "82,76 %"],
+          ["Coefficient d'utilisation", "0,18"],
         ],
       },
       en: {
@@ -996,6 +998,13 @@ const portfolioItems = {
           ["Status", "94.3% complete, under construction"],
           ["Location", "Canoa Quebrada"],
           ["City", "Aracati – CE"],
+          ["Plot area", "2,947.47 m²"],
+          ["Built area", "529.13 m²"],
+          ["Open area", "1,870.14 m²"],
+          ["Permeable area", "2,449.67 m²"],
+          ["Site coverage", "18.76%"],
+          ["Permeability", "82.76%"],
+          ["Floor area ratio", "0.18"],
         ],
       },
     },
@@ -1470,8 +1479,22 @@ if (mapEl) {
   ];
 
   locations.forEach(({ name, coords }) => {
+    L.circle(coords, {
+      radius: 1800,
+      color: "#c1121f",
+      fillColor: "#c1121f",
+      fillOpacity: 0.12,
+      weight: 1.5,
+      opacity: 0.4,
+    }).addTo(map);
+
     L.marker(coords, { icon: markerIcon })
       .addTo(map)
-      .bindPopup(`<strong>${name}</strong>`);
+      .bindTooltip(name, {
+        permanent: true,
+        direction: "top",
+        offset: [0, -10],
+        className: "map-label",
+      });
   });
 }
