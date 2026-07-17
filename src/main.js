@@ -798,7 +798,7 @@ const portfolioItems = {
           "Casa com piscina, deck e cobertura de palha em Majorlândia.",
         ariaLabel: "Abrir detalhes da obra Casa em Majorlândia",
         description:
-          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 81,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais, tijolo aparente, pedra tosca, madeira e cobertura de palha, ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
+          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 97,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais, tijolo aparente, pedra tosca, madeira e cobertura de palha, ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
         scope: [
           "Execução de estrutura e vedações em dois pavimentos",
           "Revestimentos em pedra tosca e tijolo aparente",
@@ -808,7 +808,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "81,5% concluído, obra em andamento"],
+          ["Status", "97,5% concluído, obra em andamento"],
           ["Pavimentos", "2 (térreo + superior)"],
           ["Área do terreno", "323,17 m²"],
           ["Área construída térreo", "223,33 m²"],
@@ -834,7 +834,7 @@ const portfolioItems = {
           "Maison avec piscine, deck et toiture en chaume à Majorlândia.",
         ariaLabel: "Ouvrir les détails du projet Maison à Majorlândia",
         description:
-          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 81,5 % d'avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels, brique apparente, pierre brute, bois et toiture en chaume, au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
+          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 97,5 % d’avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels, brique apparente, pierre brute, bois et toiture en chaume, au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
         scope: [
           "Exécution de la structure et des cloisonnements sur deux niveaux",
           "Revêtements en pierre brute et brique apparente",
@@ -844,7 +844,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "81,5 %, chantier en cours"],
+          ["Avancement", "97,5 %, chantier en cours"],
           ["Niveaux", "2 (rez-de-chaussée + étage)"],
           ["Surface du terrain", "323,17 m²"],
           ["Surface construite RDC", "223,33 m²"],
@@ -870,7 +870,7 @@ const portfolioItems = {
           "House with pool, deck and thatched roof in Majorlândia.",
         ariaLabel: "Open détails for the House in Majorlândia project",
         description:
-          "Single-family residence in an advanced stage of construction in Majorlândia, 81.5% complete. The two-storey project integrates a rustic language and natural materials, exposed brick, rough stone, timber and thatched roofing, with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
+          "Single-family residence in an advanced stage of construction in Majorlândia, 97.5% complete. The two-storey project integrates a rustic language and natural materials, exposed brick, rough stone, timber and thatched roofing, with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
         scope: [
           "Structural and masonry works across two storeys",
           "Rough stone and exposed brick cladding",
@@ -880,7 +880,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "81.5% complete, under construction"],
+          ["Status", "97.5% complete, under construction"],
           ["Storeys", "2 (ground floor + upper floor)"],
           ["Site area", "323.17 m²"],
           ["Built area – ground floor", "223.33 m²"],
@@ -919,7 +919,7 @@ const portfolioItems = {
           "Obra em andamento, reta final dos acabamentos em Canoa Quebrada.",
         ariaLabel: "Abrir detalhes da obra Casa em Canoa Quebrada",
         description:
-          "Residência unifamiliar em fase de finalização em Canoa Quebrada. A obra encontra-se com 94,3% de conclusão, com os ambientes internos em etapa de acabamento e os serviços externos em andamento. O projeto integra linguagem contemporânea ao contexto litorâneo da região.",
+          "Residência unifamiliar em fase de finalização em Canoa Quebrada. A obra encontra-se com 96,8% de conclusão, com os ambientes internos em etapa de acabamento e os serviços externos em andamento. O projeto integra linguagem contemporânea ao contexto litorâneo da região.",
         scope: [
           "Execução da estrutura e vedações",
           "Instalações elétricas e hidráulicas",
@@ -929,7 +929,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "94,3% concluído, obra em andamento"],
+          ["Status", "96,8% concluído, obra em andamento"],
           ["Localização", "Canoa Quebrada"],
           ["Cidade", "Aracati – CE"],
           ["Área do terreno", "2.947,47 m²"],
@@ -952,7 +952,7 @@ const portfolioItems = {
           "Chantier en cours, dernière ligne droite des finitions à Canoa Quebrada.",
         ariaLabel: "Ouvrir les détails du projet Maison à Canoa Quebrada",
         description:
-          "Maison individuelle en phase de finalisation à Canoa Quebrada. Le chantier est avancé à 94,3 %, avec les espaces intérieurs en cours de finition et les travaux extérieurs en cours. Le projet intègre un langage contemporain au contexte balnéaire de la région.",
+          "Maison individuelle en phase de finalisation à Canoa Quebrada. Le chantier est avancé à 96,8 %, avec les espaces intérieurs en cours de finition et les travaux extérieurs en cours. Le projet intègre un langage contemporain au contexte balnéaire de la région.",
         scope: [
           "Exécution de la structure et des cloisonnements",
           "Installations électriques et plomberie",
@@ -962,7 +962,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "94,3 %, chantier en cours"],
+          ["Avancement", "96,8 %, chantier en cours"],
           ["Localisation", "Canoa Quebrada"],
           ["Ville", "Aracati – CE"],
           ["Surface du terrain", "2 947,47 m²"],
@@ -985,7 +985,7 @@ const portfolioItems = {
           "Under construction, final finishing stage in Canoa Quebrada.",
         ariaLabel: "Open détails for the Casa em Canoa Quebrada project",
         description:
-          "Single-family residence in its final construction phase in Canoa Quebrada. The project is 94.3% complete, with interior finishes under way and exterior works in progress. The design blends a contemporary language with the coastal character of the region.",
+          "Single-family residence in its final construction phase in Canoa Quebrada. The project is 96.8% complete, with interior finishes under way and exterior works in progress. The design blends a contemporary language with the coastal character of the region.",
         scope: [
           "Structural and masonry works",
           "Electrical and plumbing installations",
@@ -995,7 +995,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "94.3% complete, under construction"],
+          ["Status", "96.8% complete, under construction"],
           ["Location", "Canoa Quebrada"],
           ["City", "Aracati – CE"],
           ["Plot area", "2,947.47 m²"],
@@ -1174,7 +1174,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Saúde / Clínica multiprofissional"],
-          ["Status", "35% concluído, obra em andamento"],
+          ["Status", "9% concluído, obra em andamento"],
           ["Pavimentos", "2 (térreo + superior)"],
           ["Área do terreno", "573,00 m²"],
           ["Área construída térreo", "519,00 m²"],
@@ -1209,7 +1209,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Santé / Clinique pluridisciplinaire"],
-          ["Avancement", "35 %, chantier en cours"],
+          ["Avancement", "9 %, chantier en cours"],
           ["Niveaux", "2 (rez-de-chaussée + étage)"],
           ["Surface du terrain", "573,00 m²"],
           ["Surface construite RDC", "519,00 m²"],
@@ -1244,7 +1244,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Healthcare / Multidisciplinary clinic"],
-          ["Status", "35% complete, under construction"],
+          ["Status", "9% complete, under construction"],
           ["Storeys", "2 (ground floor + upper floor)"],
           ["Site area", "573.00 m²"],
           ["Built area – ground floor", "519.00 m²"],
