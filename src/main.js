@@ -1009,6 +1009,256 @@ const portfolioItems = {
       },
     },
   },
+  "chale-cotovia": {
+    cover: "/chale-cotovia/render-1.jpg",
+    gallery: [
+      "/chale-cotovia/render-2.jpg",
+      "/chale-cotovia/render-3.jpg",
+      "/chale-cotovia/obra-1.jpg",
+      "/chale-cotovia/obra-2.jpg",
+      "/chale-cotovia/obra-3.jpg",
+    ],
+    translations: {
+      "pt-BR": {
+        category: "Hospedagem",
+        title: "Chalé Cotovia",
+        location: "Pontal de Maceió, Fortim – CE",
+        cardAlt:
+          "Perspectiva 3D do Chalé Cotovia com piscina, pergolado e chalés de palha",
+        cardShort:
+          "Vila de chalés com cobertura de palha, piscina, deck de madeira e passeios em pedra portuguesa.",
+        mobileShort:
+          "Vila de chalés com piscina e cobertura de palha em fase inicial de obra.",
+        ariaLabel: "Abrir detalhes da obra Chalé Cotovia",
+        description:
+          "Vila de hospedagem em fase inicial de execução, composta por 6 chalés, sendo 2 bangalôs duplos de 83 m² e 4 chalés de 45 m², com piscina, pergolado, varandas em deck de madeira e passeios em pedra portuguesa. As fundações e baldrames estão concluídos e a alvenaria em execução. O projeto adota estrutura em madeira, cobertura de palha e esquadrias em eucalipto, integrando o conjunto ao contexto litorâneo.",
+        scope: [
+          "Implantação de vila com 6 chalés e área de lazer central",
+          "Execução de fundações e vigas baldrame em concreto armado",
+          "Alvenaria em tijolo cerâmico e estrutura de cobertura em madeira",
+          "Piscina impermeabilizada com pergolado e deck",
+          "Esquadrias em biribinha de eucalipto e acabamentos naturais",
+        ],
+        specs: [
+          ["Tipologia", "Hospedagem / Vila de chalés"],
+          ["Status", "5% concluído, obra em andamento"],
+          ["Área do terreno", "1.620,00 m²"],
+          ["Área ocupada", "556,26 m²"],
+          ["Área permeável", "960,34 m²"],
+          ["Área parcial edificada", "401,42 m²"],
+          ["Bangalôs duplos", "2 unidades de 83,00 m²"],
+          ["Chalés", "4 unidades de 45,00 m²"],
+          ["Área edificada dos chalés", "346,00 m²"],
+          ["Piscina impermeável", "24,00 m²"],
+          ["Varandas em deck de madeira", "193,05 m²"],
+          ["Passeios em pedra portuguesa", "184,37 m²"],
+          ["Jardim em grama e areia", "865,56 m²"],
+          ["Taxa de ocupação", "34,33%"],
+          ["Taxa de permeabilidade", "59,28%"],
+          ["Localização", "Pontal de Maceió"],
+          ["Cidade", "Fortim – CE"],
+        ],
+      },
+      fr: {
+        category: "Hébergement",
+        title: "Chalé Cotovia",
+        location: "Pontal de Maceió, Fortim – CE",
+        cardAlt:
+          "Perspective 3D du Chalé Cotovia avec piscine, pergola et chalets en chaume",
+        cardShort:
+          "Village de chalets avec toiture en chaume, piscine, deck en bois et allées en pierre portugaise.",
+        mobileShort:
+          "Village de chalets avec piscine et toiture en chaume, chantier en phase initiale.",
+        ariaLabel: "Ouvrir les détails du projet Chalé Cotovia",
+        description:
+          "Village d'hébergement en phase initiale d'exécution, composé de 6 chalets, dont 2 bungalows doubles de 83 m² et 4 chalets de 45 m², avec piscine, pergola, terrasses en bois et allées en pierre portugaise. Les fondations et longrines sont achevées et la maçonnerie est en cours. Le projet adopte une structure en bois, une toiture en chaume et des menuiseries en eucalyptus, intégrant l'ensemble au contexte balnéaire.",
+        scope: [
+          "Implantation d'un village de 6 chalets avec espace de loisir central",
+          "Exécution des fondations et longrines en béton armé",
+          "Maçonnerie en brique céramique et charpente en bois",
+          "Piscine étanchéifiée avec pergola et deck",
+          "Menuiseries en eucalyptus et finitions naturelles",
+        ],
+        specs: [
+          ["Typologie", "Hébergement / Village de chalets"],
+          ["Avancement", "5 %, chantier en cours"],
+          ["Surface du terrain", "1 620,00 m²"],
+          ["Surface occupée", "556,26 m²"],
+          ["Surface perméable", "960,34 m²"],
+          ["Surface construite partielle", "401,42 m²"],
+          ["Bungalows doubles", "2 unités de 83,00 m²"],
+          ["Chalets", "4 unités de 45,00 m²"],
+          ["Surface construite des chalets", "346,00 m²"],
+          ["Piscine étanche", "24,00 m²"],
+          ["Terrasses en deck de bois", "193,05 m²"],
+          ["Allées en pierre portugaise", "184,37 m²"],
+          ["Jardin en gazon et sable", "865,56 m²"],
+          ["Taux d'occupation", "34,33 %"],
+          ["Taux de perméabilité", "59,28 %"],
+          ["Localisation", "Pontal de Maceió"],
+          ["Ville", "Fortim – CE"],
+        ],
+      },
+      en: {
+        category: "Hospitality",
+        title: "Chalé Cotovia",
+        location: "Pontal de Maceió, Fortim – CE",
+        cardAlt:
+          "3D rendering of Chalé Cotovia with pool, pergola and thatched chalets",
+        cardShort:
+          "Chalet village with thatched roofs, pool, wooden deck and Portuguese stone walkways.",
+        mobileShort:
+          "Chalet village with pool and thatched roofs, construction in early stage.",
+        ariaLabel: "Open details for the Chalé Cotovia project",
+        description:
+          "Hospitality village in the early stage of construction, comprising 6 chalets — 2 duplex bungalows of 83 m² and 4 chalets of 45 m² — with a pool, pergola, wooden deck verandas and Portuguese stone walkways. Foundations and grade beams are complete and masonry is under way. The design features timber structure, thatched roofing and eucalyptus joinery, tying the complex to its coastal setting.",
+        scope: [
+          "Site layout for a village of 6 chalets with a central leisure area",
+          "Reinforced concrete foundations and grade beams",
+          "Ceramic brick masonry and timber roof structure",
+          "Waterproofed pool with pergola and deck",
+          "Eucalyptus joinery and natural finishes",
+        ],
+        specs: [
+          ["Typology", "Hospitality / Chalet village"],
+          ["Status", "5% complete, under construction"],
+          ["Site area", "1,620.00 m²"],
+          ["Occupied area", "556.26 m²"],
+          ["Permeable area", "960.34 m²"],
+          ["Partial built area", "401.42 m²"],
+          ["Duplex bungalows", "2 units of 83.00 m²"],
+          ["Chalets", "4 units of 45.00 m²"],
+          ["Chalets built area", "346.00 m²"],
+          ["Waterproofed pool", "24.00 m²"],
+          ["Wooden deck verandas", "193.05 m²"],
+          ["Portuguese stone walkways", "184.37 m²"],
+          ["Grass and sand garden", "865.56 m²"],
+          ["Site coverage", "34.33%"],
+          ["Permeability rate", "59.28%"],
+          ["Location", "Pontal de Maceió"],
+          ["City", "Fortim – CE"],
+        ],
+      },
+    },
+  },
+  "clinica-estimulo-nato": {
+    cover: "/clinica-estimulo-nato/render-1.jpg",
+    gallery: [
+      "/clinica-estimulo-nato/render-2.jpg",
+      "/clinica-estimulo-nato/render-3.jpg",
+      "/clinica-estimulo-nato/render-4.jpg",
+      "/clinica-estimulo-nato/obra-1.jpg",
+      "/clinica-estimulo-nato/obra-2.jpg",
+      "/clinica-estimulo-nato/obra-3.jpg",
+    ],
+    translations: {
+      "pt-BR": {
+        category: "Saúde",
+        title: "Clínica Estímulo Nato",
+        location: "Aracati – CE",
+        cardAlt:
+          "Fachada da Clínica Estímulo Nato com esquadrias azuis e azulejos tradicionais",
+        cardShort:
+          "Clínica multiprofissional com fachada de linguagem histórica, pátio com playground e ambientes acolhedores.",
+        mobileShort:
+          "Clínica multiprofissional com fachada histórica e pátio com playground.",
+        ariaLabel: "Abrir detalhes da obra Clínica Estímulo Nato",
+        description:
+          "Obra da Clínica Multiprofissional Estímulo Nato, em execução em contexto urbano consolidado. O projeto resgata a linguagem das casas históricas da região, com esquadrias em tons de azul, gradis metálicos e azulejaria tradicional na fachada, e organiza o programa em dois pavimentos com salas de atendimento, recepção ampla e pátio interno com playground e área de convivência. A obra encontra-se em fase de estrutura e alvenaria, com montagem de armaduras e elevação das vedações.",
+        scope: [
+          "Execução de estrutura em concreto armado e alvenaria cerâmica",
+          "Requalificação de fachada com azulejaria e esquadrias históricas",
+          "Distribuição de salas de atendimento em dois pavimentos",
+          "Pátio interno com playground e área de convivência",
+          "Instalações, acabamentos e comunicação visual da clínica",
+        ],
+        specs: [
+          ["Tipologia", "Saúde / Clínica multiprofissional"],
+          ["Status", "35% concluído, obra em andamento"],
+          ["Pavimentos", "2 (térreo + superior)"],
+          ["Área do terreno", "573,00 m²"],
+          ["Área construída térreo", "519,00 m²"],
+          ["Área construída 1º andar", "504,47 m²"],
+          ["Área descoberta", "54,00 m²"],
+          ["Área construída total", "1.023,47 m²"],
+          ["Programa", "Salas de atendimento, recepção e convivência"],
+          ["Áreas externas", "Pátio interno com playground"],
+          ["Fachada", "Azulejaria tradicional, gradis e esquadrias em azul"],
+          ["Cidade", "Aracati – CE"],
+        ],
+      },
+      fr: {
+        category: "Santé",
+        title: "Clínica Estímulo Nato",
+        location: "Aracati – CE",
+        cardAlt:
+          "Façade de la Clínica Estímulo Nato avec menuiseries bleues et azulejos traditionnels",
+        cardShort:
+          "Clinique pluridisciplinaire avec façade d'inspiration historique, patio avec aire de jeux et espaces chaleureux.",
+        mobileShort:
+          "Clinique pluridisciplinaire avec façade historique et patio avec aire de jeux.",
+        ariaLabel: "Ouvrir les détails du projet Clínica Estímulo Nato",
+        description:
+          "Chantier de la Clinique Pluridisciplinaire Estímulo Nato, en cours d'exécution dans un contexte urbain consolidé. Le projet reprend le langage des maisons historiques de la région, avec des menuiseries dans les tons de bleu, des grilles métalliques et des azulejos traditionnels en façade, et organise le programme sur deux niveaux avec salles de consultation, vaste accueil et patio intérieur avec aire de jeux et espace de convivialité. Le chantier est en phase de structure et de maçonnerie, avec montage des armatures et élévation des murs.",
+        scope: [
+          "Exécution de la structure en béton armé et maçonnerie céramique",
+          "Requalification de la façade avec azulejos et menuiseries historiques",
+          "Distribution des salles de consultation sur deux niveaux",
+          "Patio intérieur avec aire de jeux et espace de convivialité",
+          "Installations, finitions et signalétique de la clinique",
+        ],
+        specs: [
+          ["Typologie", "Santé / Clinique pluridisciplinaire"],
+          ["Avancement", "35 %, chantier en cours"],
+          ["Niveaux", "2 (rez-de-chaussée + étage)"],
+          ["Surface du terrain", "573,00 m²"],
+          ["Surface construite RDC", "519,00 m²"],
+          ["Surface construite étage", "504,47 m²"],
+          ["Surface découverte", "54,00 m²"],
+          ["Surface construite totale", "1 023,47 m²"],
+          ["Programme", "Salles de consultation, accueil et convivialité"],
+          ["Espaces extérieurs", "Patio intérieur avec aire de jeux"],
+          ["Façade", "Azulejos traditionnels, grilles et menuiseries bleues"],
+          ["Ville", "Aracati – CE"],
+        ],
+      },
+      en: {
+        category: "Healthcare",
+        title: "Clínica Estímulo Nato",
+        location: "Aracati – CE",
+        cardAlt:
+          "Facade of Clínica Estímulo Nato with blue window frames and traditional tiles",
+        cardShort:
+          "Multidisciplinary clinic with a historic-style facade, courtyard with playground and welcoming interiors.",
+        mobileShort:
+          "Multidisciplinary clinic with a historic facade and playground courtyard.",
+        ariaLabel: "Open details for the Clínica Estímulo Nato project",
+        description:
+          "Construction of the Estímulo Nato Multidisciplinary Clinic, under way in a consolidated urban setting. The design draws on the language of the region's historic houses, with blue-toned window frames, metal railings and traditional tilework on the facade, organising the programme over two storeys with consultation rooms, a spacious reception and an internal courtyard with playground and social area. The works are at the structure and masonry stage, with rebar assembly and wall construction in progress.",
+        scope: [
+          "Reinforced concrete structure and ceramic brick masonry",
+          "Facade requalification with tilework and historic-style frames",
+          "Consultation rooms laid out over two storeys",
+          "Internal courtyard with playground and social area",
+          "Building systems, finishes and clinic signage",
+        ],
+        specs: [
+          ["Typology", "Healthcare / Multidisciplinary clinic"],
+          ["Status", "35% complete, under construction"],
+          ["Storeys", "2 (ground floor + upper floor)"],
+          ["Site area", "573.00 m²"],
+          ["Built area – ground floor", "519.00 m²"],
+          ["Built area – upper floor", "504.47 m²"],
+          ["Open area", "54.00 m²"],
+          ["Total built area", "1,023.47 m²"],
+          ["Programme", "Consultation rooms, reception and social areas"],
+          ["Outdoor areas", "Internal courtyard with playground"],
+          ["Facade", "Traditional tilework, railings and blue frames"],
+          ["City", "Aracati – CE"],
+        ],
+      },
+    },
+  },
 };
 
 const resolveLocale = (locale) =>
