@@ -775,21 +775,20 @@ const portfolioItems = {
     },
   },
   "casa-major": {
-    cover: "/major/IMG_2808.jpg",
+    cover: "/major/IMG_7773.jpg",
     gallery: [
-      "/major/IMG_2816.jpg",
-      "/major/IMG_2797.jpg",
-      "/major/IMG_2800.jpg",
-      "/major/IMG_2821.jpg",
-      "/major/IMG_2815.jpg",
-      "/major/IMG_2803.jpg",
+      "/major/IMG_7743.jpg",
+      "/major/IMG_7745.jpg",
+      "/major/IMG_7746.jpg",
+      "/major/IMG_7759.jpg",
+      "/major/IMG_7761.jpg",
     ],
     translations: {
       "pt-BR": {
         category: "Residencial",
         title: "Casa em Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Varanda com cobertura de palha e vista panorâmica em Majorlândia",
+        cardAlt: "Fachada da casa em Majorlândia com varanda e cobertura de palha",
         cardShort:
           "Residência de dois pavimentos com piscina, deck, cobertura de palha e identidade litorânea em Majorlândia.",
         mobileShort:
@@ -825,7 +824,7 @@ const portfolioItems = {
         category: "Résidentiel",
         title: "Maison à Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Terrasse avec toiture en chaume et vue panoramique à Majorlândia",
+        cardAlt: "Façade de la maison à Majorlândia avec terrasse et toiture en chaume",
         cardShort:
           "Maison de deux niveaux avec piscine, deck, toiture en chaume et identité balnéaire à Majorlândia.",
         mobileShort:
@@ -861,7 +860,7 @@ const portfolioItems = {
         category: "Residential",
         title: "House in Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Thatched roof terrace with panoramic view in Majorlândia",
+        cardAlt: "Facade of the house in Majorlândia with terrace and thatched roof",
         cardShort:
           "Two-storey house with pool, deck, thatched roof and coastal identity in Majorlândia.",
         mobileShort:
