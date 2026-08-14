@@ -561,9 +561,7 @@ const portfolioItems = {
       "/vila-serverina/dji_fly_20251223_095156_64_1766495544621_photo.jpg",
       "/vila-serverina/IMG_4548.jpg",
       "/vila-serverina/IMG_4550.jpg",
-      "/vila-serverina/IMG_4531.jpg",
       "/vila-serverina/IMG_4562.jpg",
-      "/vila-serverina/IMG_4513.jpg",
     ],
     translations: {
       "pt-BR": {
