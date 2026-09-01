@@ -775,27 +775,28 @@ const portfolioItems = {
     },
   },
   "casa-major": {
-    cover: "/major/IMG_7773.jpg",
+    cover: "/major/IMG_0466-capa.jpg",
     gallery: [
-      "/major/IMG_7743.jpg",
-      "/major/IMG_7745.jpg",
-      "/major/IMG_7746.jpg",
-      "/major/IMG_7759.jpg",
-      "/major/IMG_7761.jpg",
+      "/major/IMG_0434.jpg",
+      "/major/IMG_0454.jpg",
+      "/major/IMG_0460.jpg",
+      "/major/IMG_0424.jpg",
+      "/major/IMG_0437.jpg",
+      "/major/IMG_0446.jpg",
     ],
     translations: {
       "pt-BR": {
         category: "Residencial",
         title: "Casa em Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Fachada da casa em Majorlândia com varanda e cobertura de palha",
+        cardAlt: "Fachada da casa em Majorlândia com piscina e área de lazer",
         cardShort:
           "Residência de dois pavimentos com piscina, deck, cobertura de palha e identidade litorânea em Majorlândia.",
         mobileShort:
           "Casa com piscina, deck e cobertura de palha em Majorlândia.",
         ariaLabel: "Abrir detalhes da obra Casa em Majorlândia",
         description:
-          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 97,5% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais, tijolo aparente, pedra tosca, madeira e cobertura de palha, ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
+          "Residência unifamiliar em fase avançada de execução em Majorlândia, com 99% de conclusão. O projeto de dois pavimentos integra linguagem rústica e materiais naturais, tijolo aparente, pedra tosca, madeira e cobertura de palha, ao contexto litorâneo da região. O conjunto conta com piscina, deck, varanda coberta, escada em madeira e vistas panorâmicas da vila.",
         scope: [
           "Execução de estrutura e vedações em dois pavimentos",
           "Revestimentos em pedra tosca e tijolo aparente",
@@ -805,7 +806,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Residencial unifamiliar"],
-          ["Status", "97,5% concluído, obra em andamento"],
+          ["Status", "99% concluído, obra em andamento"],
           ["Pavimentos", "2 (térreo + superior)"],
           ["Área do terreno", "323,17 m²"],
           ["Área construída térreo", "223,33 m²"],
@@ -824,14 +825,14 @@ const portfolioItems = {
         category: "Résidentiel",
         title: "Maison à Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Façade de la maison à Majorlândia avec terrasse et toiture en chaume",
+        cardAlt: "Façade de la maison à Majorlândia avec piscine et espace de loisirs",
         cardShort:
           "Maison de deux niveaux avec piscine, deck, toiture en chaume et identité balnéaire à Majorlândia.",
         mobileShort:
           "Maison avec piscine, deck et toiture en chaume à Majorlândia.",
         ariaLabel: "Ouvrir les détails du projet Maison à Majorlândia",
         description:
-          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 97,5 % d’avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels, brique apparente, pierre brute, bois et toiture en chaume, au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
+          "Maison individuelle en phase avancée d'exécution à Majorlândia, avec 99 % d’avancement. Le projet de deux niveaux intègre un langage rustique et des matériaux naturels, brique apparente, pierre brute, bois et toiture en chaume, au contexte balnéaire de la région. L'ensemble comprend une piscine, un deck, une terrasse couverte, un escalier en bois et des vues panoramiques sur le village.",
         scope: [
           "Exécution de la structure et des cloisonnements sur deux niveaux",
           "Revêtements en pierre brute et brique apparente",
@@ -841,7 +842,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Maison individuelle"],
-          ["Avancement", "97,5 %, chantier en cours"],
+          ["Avancement", "99 %, chantier en cours"],
           ["Niveaux", "2 (rez-de-chaussée + étage)"],
           ["Surface du terrain", "323,17 m²"],
           ["Surface construite RDC", "223,33 m²"],
@@ -860,14 +861,14 @@ const portfolioItems = {
         category: "Residential",
         title: "House in Majorlândia",
         location: "Majorlândia, Aracati – CE",
-        cardAlt: "Facade of the house in Majorlândia with terrace and thatched roof",
+        cardAlt: "Facade of the house in Majorlândia with pool and leisure area",
         cardShort:
           "Two-storey house with pool, deck, thatched roof and coastal identity in Majorlândia.",
         mobileShort:
           "House with pool, deck and thatched roof in Majorlândia.",
         ariaLabel: "Open détails for the House in Majorlândia project",
         description:
-          "Single-family residence in an advanced stage of construction in Majorlândia, 97.5% complete. The two-storey project integrates a rustic language and natural materials, exposed brick, rough stone, timber and thatched roofing, with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
+          "Single-family residence in an advanced stage of construction in Majorlândia, 99% complete. The two-storey project integrates a rustic language and natural materials, exposed brick, rough stone, timber and thatched roofing, with the coastal character of the region. The programme includes a pool, deck, covered veranda, wooden staircase and panoramic views over the village.",
         scope: [
           "Structural and masonry works across two storeys",
           "Rough stone and exposed brick cladding",
@@ -877,7 +878,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Single-family residential"],
-          ["Status", "97.5% complete, under construction"],
+          ["Status", "99% complete, under construction"],
           ["Storeys", "2 (ground floor + upper floor)"],
           ["Site area", "323.17 m²"],
           ["Built area – ground floor", "223.33 m²"],
@@ -1038,7 +1039,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Tipologia", "Hospedagem / Vila de chalés"],
-          ["Status", "5% concluído, obra em andamento"],
+          ["Status", "15% concluído, obra em andamento"],
           ["Área do terreno", "1.620,00 m²"],
           ["Área ocupada", "556,26 m²"],
           ["Área permeável", "960,34 m²"],
@@ -1078,7 +1079,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typologie", "Hébergement / Village de chalets"],
-          ["Avancement", "5 %, chantier en cours"],
+          ["Avancement", "15 %, chantier en cours"],
           ["Surface du terrain", "1 620,00 m²"],
           ["Surface occupée", "556,26 m²"],
           ["Surface perméable", "960,34 m²"],
@@ -1118,7 +1119,7 @@ const portfolioItems = {
         ],
         specs: [
           ["Typology", "Hospitality / Chalet village"],
-          ["Status", "5% complete, under construction"],
+          ["Status", "15% complete, under construction"],
           ["Site area", "1,620.00 m²"],
           ["Occupied area", "556.26 m²"],
           ["Permeable area", "960.34 m²"],
